@@ -1,8 +1,17 @@
-// Question Link : https://www.geeksforgeeks.org/problems/minimum-sum-partition3317/1?
+// Question Link : https://www.geeksforgeeks.org/problems/minimum-sum-partition3317/1
 
 /*
  Time Complexity : 
  Space Complexity : 
+*/
+
+/**
+Explanation:
+The final sums of the subset will be in the last row of the table
+
+so here, we need to find the min difference between subset sums
+
+
 */
 
 class Solution{
@@ -10,7 +19,7 @@ class Solution{
   public:
 	int minDifference(int arr[], int N)  { 
 	    
-	    int sum = 0;
+	    int sum = 0;3
 	    for(int i = 0; i < N ; i++ ) {
 	        sum += arr[i];
 	    }

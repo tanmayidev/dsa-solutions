@@ -24,7 +24,7 @@ class Solution{
         
         vector<vector<int>> dp(items+1, vector<int>(N+1));
         // rows - pieces - length of cuts
-        // cols - length of rod
+        // cols - N = capacity - length of the rod
         
         // base condition
         for(int i=0; i< items+1; i++) {
