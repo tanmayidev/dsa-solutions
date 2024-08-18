@@ -243,8 +243,225 @@
 
 ## Binary Trees and BST <a id="binary-trees"></a>
 
+| S No | Question                                                                        | Link                                                                                                                       | Solution                      |
+| :--- | :------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------- | :---------------------------- |
+| 01   | Range Sum of BST                                                                | [leetcode](https://leetcode.com/problems/range-sum-of-bst/)                                                                | [cpp](), [java](), [python]() |
+| 02   | Merge Two Binary Trees                                                          | [leetcode](https://leetcode.com/problems/merge-two-binary-trees/)                                                          | [cpp](), [java](), [python]() |
+| 03   | Search in a Binary Search Tree                                                  | [leetcode](https://leetcode.com/problems/search-in-a-binary-search-tree/)                                                  | [cpp](), [java](), [python]() |
+| 04   | Maximum Depth of Binary Tree                                                    | [leetcode](https://leetcode.com/problems/maximum-depth-of-binary-tree/)                                                    | [cpp](), [java](), [python]() |
+| 05   | Trim a Binary Search Tree                                                       | [leetcode](https://leetcode.com/problems/trim-a-binary-search-tree/)                                                       | [cpp](), [java](), [python]() |
+| 06   | Invert Binary Tree                                                              | [leetcode](https://leetcode.com/problems/invert-binary-tree/)                                                              | [cpp](), [java](), [python]() |
+| 07   | Leaf-Similar Trees                                                              | [leetcode](https://leetcode.com/problems/leaf-similar-trees/)                                                              | [cpp](), [java](), [python]() |
+| 08   | Construct String from Binary Tree                                               | [leetcode](https://leetcode.com/problems/construct-string-from-binary-tree/)                                               | [cpp](), [java](), [python]() |
+| 09   | Minimum Absolute Difference in BST                                              | [leetcode](https://leetcode.com/problems/minimum-absolute-difference-in-bst/)                                              | [cpp](), [java](), [python]() |
+| 10   | Same Tree                                                                       | [leetcode](https://leetcode.com/problems/same-tree/)                                                                       | [cpp](), [java](), [python]() |
+| 11   | Minimum Distance Between BST Nodes                                              | [leetcode](https://leetcode.com/problems/minimum-distance-between-bst-nodes/)                                              | [cpp](), [java](), [python]() |
+| 12   | Sum of Left Leaves                                                              | [leetcode](https://leetcode.com/problems/sum-of-left-leaves/)                                                              | [cpp](), [java](), [python]() |
+| 13   | Lowest Common Ancestor of a Binary Search Tree                                  | [leetcode](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)                                  | [cpp](), [java](), [python]() |
+| 14   | Diameter of Binary Tree                                                         | [leetcode](https://leetcode.com/problems/diameter-of-binary-tree/)                                                         | [cpp](), [java](), [python]() |
+| 15   | Symmetric Tree                                                                  | [leetcode](https://leetcode.com/problems/symmetric-tree/)                                                                  | [cpp](), [java](), [python]() |
+| 16   | Path Sum III                                                                    | [leetcode](https://leetcode.com/problems/path-sum-iii/)                                                                    | [cpp](), [java](), [python]() |
+| 17   | Balanced Binary Tree                                                            | [leetcode](https://leetcode.com/problems/balanced-binary-tree/)                                                            | [cpp](), [java](), [python]() |
+| 18   | Deepest Leaves Sum                                                              | [leetcode](https://leetcode.com/problems/deepest-leaves-sum/)                                                              | [cpp](), [java](), [python]() |
+| 19   | Insert into a Binary Search Tree                                                | [leetcode](https://leetcode.com/problems/insert-into-a-binary-search-tree/)                                                | [cpp](), [java](), [python]() |
+| 20   | Construct Binary Search Tree from Preorder Traversal                            | [leetcode](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/)                            | [cpp](), [java](), [python]() |
+| 21   | Distribute Coins in Binary Tree                                                 | [leetcode](https://leetcode.com/problems/distribute-coins-in-binary-tree/)                                                 | [cpp](), [java](), [python]() |
+| 22   | Minimum Cost Tree From Leaf Values                                              | [leetcode](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/)                                              | [cpp](), [java](), [python]() |
+| 23   | Construct Binary Tree from Preorder and Postorder Traversal                     | [leetcode](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/)                     | [cpp](), [java](), [python]() |
+| 24   | Smallest Subtree with all the Deepest Nodes                                     | [leetcode](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/)                                     | [cpp](), [java](), [python]() |
+| 25   | Kth Smallest Element in a BST                                                   | [leetcode](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)                                                   | [cpp](), [java](), [python]() |
+| 26   | Tree Diameter                                                                   | [leetcode](https://leetcode.com/problems/tree-diameter/)                                                                   | [cpp](), [java](), [python]() |
+| 27   | Convert Binary Search Tree to Sorted Doubly Linked List                         | [leetcode](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/)                         | [cpp](), [java](), [python]() |
+| 28   | Most Frequent Subtree Sum                                                       | [leetcode](https://leetcode.com/problems/most-frequent-subtree-sum/)                                                       | [cpp](), [java](), [python]() |
+| 29   | Split BST                                                                       | [leetcode](https://leetcode.com/problems/split-bst/)                                                                       | [cpp](), [java](), [python]() |
+| 30   | Binary Search Tree Iterator                                                     | [leetcode](https://leetcode.com/problems/binary-search-tree-iterator/)                                                     | [cpp](), [java](), [python]() |
+| 31   | Binary Tree Preorder Traversal                                                  | [leetcode](https://leetcode.com/problems/binary-tree-preorder-traversal/)                                                  | [cpp](), [java](), [python]() |
+| 32   | All Nodes Distance K in Binary Tree                                             | [leetcode](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/)                                             | [cpp](), [java](), [python]() |
+| 33   | Binary Tree Level Order Traversal                                               | [leetcode](https://leetcode.com/problems/binary-tree-level-order-traversal/)                                               | [cpp](), [java](), [python]() |
+| 34   | Flatten Binary Tree to Linked List                                              | [leetcode](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)                                              | [cpp](), [java](), [python]() |
+| 35   | Construct Binary Tree from Preorder and Inorder Traversal                       | [leetcode](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)                       | [cpp](), [java](), [python]() |
+| 36   | Binary Tree Longest Consecutive Sequence                                        | [leetcode](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/)                                        | [cpp](), [java](), [python]() |
+| 37   | Sum Root to Leaf Numbers                                                        | [leetcode](https://leetcode.com/problems/sum-root-to-leaf-numbers/)                                                        | [cpp](), [java](), [python]() |
+| 38   | Binary Tree Zigzag Level Order Traversal                                        | [leetcode](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)                                        | [cpp](), [java](), [python]() |
+| 39   | Verify Preorder Sequence in Binary Search Tree                                  | [leetcode](https://leetcode.com/problems/verify-preorder-sequence-in-binary-search-tree/)                                  | [cpp](), [java](), [python]() |
+| 40   | Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree | [leetcode](https://leetcode.com/problems/check-if-a-string-is-a-valid-sequence-from-root-to-leaves-path-in-a-binary-tree/) | [cpp](), [java](), [python]() |
+| 41   | Closest Leaf in a Binary Tree                                                   | [leetcode](https://leetcode.com/problems/closest-leaf-in-a-binary-tree/)                                                   | [cpp](), [java](), [python]() |
+| 42   | Inorder Successor in BST                                                        | [leetcode](https://leetcode.com/problems/inorder-successor-in-bst/)                                                        | [cpp](), [java](), [python]() |
+| 43   | Vertical Order Traversal of a Binary Tree                                       | [leetcode](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)                                       | [cpp](), [java](), [python]() |
+| 44   | Largest BST Subtree                                                             | [leetcode](https://leetcode.com/problems/largest-bst-subtree/)                                                             | [cpp](), [java](), [python]() |
+| 45   | Recover a Tree From Preorder Traversal                                          | [leetcode](https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/)                                          | [cpp](), [java](), [python]() |
+| 46   | Binary Tree Postorder Traversal                                                 | [leetcode](https://leetcode.com/problems/binary-tree-postorder-traversal/)                                                 | [cpp](), [java](), [python]() |
+| 47   | Serialize and Deserialize N-ary Tree                                            | [leetcode](https://leetcode.com/problems/serialize-and-deserialize-n-ary-tree/)                                            | [cpp](), [java](), [python]() |
+| 48   | Closest Binary Search Tree Value II                                             | [leetcode](https://leetcode.com/problems/closest-binary-search-tree-value-ii/)                                             | [cpp](), [java](), [python]() |
+| 49   | Serialize and Deserialize Binary Tree                                           | [leetcode](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)                                           | [cpp](), [java](), [python]() |
+| 50   | Sum of Distances in Tree                                                        | [leetcode](https://leetcode.com/problems/sum-of-distances-in-tree/)                                                        | [cpp](), [java](), [python]() |
+| 51   | Recover Binary Search Tree                                                      | [leetcode](https://leetcode.com/problems/recover-binary-search-tree/)                                                      | [cpp](), [java](), [python]() |
+| 52   | Binary Tree Maximum Path Sum                                                    | [leetcode](https://leetcode.com/problems/binary-tree-maximum-path-sum/)                                                    | [cpp](), [java](), [python]() |
+
 ## Greedy Algorithms <a id="greedy-algorithms"></a>
+
+| S No | Question | Link         | Solution                      |
+| :--- | :------- | :----------- | :---------------------------- |
+| 01   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 02   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 03   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 04   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 05   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 06   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 07   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 08   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 09   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 10   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 11   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 12   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 13   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 14   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 15   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 16   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 17   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 18   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 19   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 20   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 21   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 22   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 23   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 24   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 25   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 26   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 27   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 28   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 29   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 30   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 31   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 32   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 33   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 34   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 35   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 36   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 37   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 38   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 39   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 40   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 41   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 42   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 43   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 44   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 45   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 46   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 47   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 48   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 49   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 50   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 51   | Question | [leetcode]() | [cpp](), [java](), [python]() |
 
 ## Dynamic Programming <a id="dynamic-programming"></a>
 
+| S No | Question | Link         | Solution                      |
+| :--- | :------- | :----------- | :---------------------------- |
+| 01   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 02   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 03   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 04   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 05   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 06   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 07   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 08   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 09   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 10   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 11   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 12   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 13   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 14   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 15   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 16   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 17   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 18   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 19   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 20   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 21   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 22   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 23   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 24   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 25   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 26   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 27   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 28   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 29   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 30   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 31   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 32   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 33   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 34   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 35   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 36   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 37   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 38   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 39   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 40   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 41   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 42   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 43   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 44   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 45   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 46   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 47   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 48   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 49   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 50   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 51   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+
 ## Graphs <a id="graphs"></a>
+
+| S No | Question | Link         | Solution                      |
+| :--- | :------- | :----------- | :---------------------------- |
+| 01   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 02   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 03   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 04   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 05   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 06   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 07   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 08   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 09   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 10   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 11   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 12   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 13   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 14   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 15   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 16   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 17   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 18   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 19   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 20   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 21   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 22   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 23   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 24   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 25   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 26   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 27   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 28   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 29   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 30   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 31   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 32   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 33   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 34   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 35   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 36   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 37   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 38   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 39   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 40   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 41   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 42   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 43   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 44   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 45   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 46   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 47   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 48   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 49   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 50   | Question | [leetcode]() | [cpp](), [java](), [python]() |
+| 51   | Question | [leetcode]() | [cpp](), [java](), [python]() |
