@@ -2,14 +2,14 @@
 
 ### Index
 
-- [Bit Manipulation](#bit-manipulation)
-- [Divide and Conquer](#divide-and-conquer)
-- [Recursion and Backtracking](#recursion-and-backtracking)
-- [Linked Lists](#linked-lists)
-- [Binary Trees and BST](#binary-trees)
-- [Greedy Algorithms](#greedy-algorithms)
-- [Dynamic Programming](#dynamic-programming)
-- [Graphs](#graphs)
+- [01. Bit Manipulation](#bit-manipulation)
+- [02. Divide and Conquer](#divide-and-conquer)
+- [03. Recursion and Backtracking](#recursion-and-backtracking)
+- [04. Linked Lists](#linked-lists)
+- [05. Binary Trees and BST](#binary-trees)
+- [06. Greedy Algorithms](#greedy-algorithms)
+- [07. Dynamic Programming](#dynamic-programming)
+- [08. Graphs](#graphs)
 
 ## Bit Manipulation <a id="bit-manipuation"></a>
 
