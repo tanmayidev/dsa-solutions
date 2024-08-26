@@ -1,3 +1,0 @@
-| Question                                                                                                                                      | Code                                                       |
-| :-------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------- |
-| [Print Longest Common Subsequence](https://www.hackerrank.com/challenges/dynamic-programming-classics-the-longest-common-subsequence/problem) | [cpp](./print-longest-common-subsequence.cpp) , [python]() |

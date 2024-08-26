@@ -1,0 +1,37 @@
+# Add One Row to Tree
+
+### Input Format
+
+```
+
+```
+
+### Constraints
+
+```
+
+```
+
+### Output Format
+
+```
+
+```
+
+### Sample Input
+
+```
+
+```
+
+### Sample Output
+
+```
+
+```
+
+### Explanation
+
+**Algorithm** :
+
+### Time Complexity
