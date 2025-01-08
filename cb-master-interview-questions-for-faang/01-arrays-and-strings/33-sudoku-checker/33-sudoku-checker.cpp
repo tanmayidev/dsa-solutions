@@ -41,7 +41,7 @@ int main() {
     }
   }
   
-  cout<<std::boolalpha<<isValidSudoku(matrix);
+  cout << std::boolalpha << isValidSudoku(matrix);
   
   return 0;
 }
