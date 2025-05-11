@@ -1,1 +1,1 @@
-
+- [Binary Search](./binary-search)
