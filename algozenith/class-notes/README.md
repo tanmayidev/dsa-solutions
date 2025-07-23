@@ -1,9 +1,9 @@
 # Class Notes
 
-- [modulo arithmetic](./modulo-arithmetic)
+- [modulo arithmetic](#intro-to-maths)
 - [binary search](#binary-search)
 
-## Introduction to Mathematics in Programming
+## Introduction to Mathematics in Programming <a id="intro-to-maths"></a>
 
 - Number Theory & Modular Arithmetic
   - Prime numbers, divisibility rules, and prime factorization.
