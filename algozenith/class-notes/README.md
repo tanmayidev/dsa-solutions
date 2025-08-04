@@ -1,6 +1,7 @@
 # Class Notes
 
 - [modulo arithmetic](#intro-to-maths)
+- [contribution techniques](#contribution-techniques)
 - [binary search](#binary-search)
 
 ## Introduction to Mathematics in Programming <a id="intro-to-maths"></a>
