@@ -138,7 +138,7 @@
 
 
 
-
+<!--
 
 
 | 01 | Binary Search | Rotated Sorted Array | [az](https://maang.in/problems/Rotated-Sorted-Array-108) | [cpp](), [java](), [python](), [ts]() |
@@ -163,3 +163,4 @@
 | 20 | Binary Search  2D Type | Valentine's Day '19: Chocolate for the Chocoholics | [atcoder](https://atcoder.jp/contests/abc149/tasks/abc149_e) | [cpp](), [java](), [python](), [ts]() |
 | 21 | Binary Search  Interactive | Guess the K-th Zero (Easy Version) | [codeforces](https://codeforces.com/contest/1520/problem/F1) | [cpp](), [java](), [python](), [ts]() |
 
+-->
