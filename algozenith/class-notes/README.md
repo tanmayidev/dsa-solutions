@@ -63,6 +63,34 @@
 
 -----
 
+## Modulo Arithmetic
+
+```
+dividend = divisor * quotient + remainder
+```
+
+The notation `n%m` can be defined as :
+```
+n%m = n - floor(n/m) . m
+```
+Here, floor(x) represents the largest integer that does not exceed x. 
+This ensures that the result always falls within the range of 0 to m-1 inclusive.
+
+**Simple Division with Remainders**
+
+```cpp
+int a = 7, n = 3;
+int expr = a % n; // expr will be 1
+```
+
+**Division with Negative Numbers**
+
+```cpp
+-8 % 7 = -1 + 7 = 6
+```
+
+-----
+
 ## Binary Search <a id="binary-search"></a>
 
 - [Binary Search Foundations](#bs-foundations)
