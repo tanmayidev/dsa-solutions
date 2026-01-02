@@ -14,12 +14,21 @@ Tests:
 
 */
 
-function nthFibonacci(n) {
-  if(n == 0) {
-    return 0;
-  } else if(n == 1) {
-    return 1;
-  } 
+let dp = [];
 
-  return nthFibonacci(n-1) + nthFibonacci(n-2);
+function fooBar(n) {
+  if (n <= 1) {
+    return 0;
+  }
+  if (n == 2) {
+    return 1;
+  }
+  if (dp[n] != null) {
+    return dp[n];
+  }
+  return dp[n] = fooBar(n - 1) + fooBar(n - 2);
+}
+
+function nthFibonacci(n) {
+  return fooBar(n);
 }
