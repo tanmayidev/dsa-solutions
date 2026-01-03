@@ -1,3 +1,16 @@
+// Array Length = 2*n
+// Number of unique elements = n + 1
+// Note : Find the element repeated n times
+// Since unique number of elements are n+1, the remaining elements of the array should be the specific number that needs to be repeated n times
+// any number thats repeated more than once will be the answer
+/*
+Examples : 
+len(nums) = 8
+n = 4
+unique elements = 5
+nums = [1, 2, 3, 4, 5, 5, 5, 5]
+*/
+
 class Solution {
     public int repeatedNTimes(int[] nums) {
         int n = nums.length / 2;
