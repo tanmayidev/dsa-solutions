@@ -1,5 +1,5 @@
 /*
-Hint : Checkout the Image
+Hint : https://github.com/tanmayidev/dsa-solutions/blob/main/leetcode-solutions/1411-number-of-ways-to-paint-n%C3%973-grid/1411-hint.png
 */
 
 class Solution {
