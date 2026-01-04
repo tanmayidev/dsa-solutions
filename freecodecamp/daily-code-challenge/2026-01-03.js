@@ -42,14 +42,16 @@ function findLeftHandedSeats(table) {
   let canOccupy = 0;
 
 // Given 4x2 matrix
-  for(let i = 0; i < 4; i++) {
-      if(table[0][i] == "U" && (table[0][i+1] !== "R" ) ) {
-          canOccupy++;   
-        }
-
-      if(table[1][i] == "U" && table[1][i-1] !== "R") {
-          canOccupy++;
-        }
+  for (let i = 0; i < 4; i++) {
+    // Top row (facing down): left is at index i+1
+    if (table[0][i] === "U" && (i === 3 || table[0][i+1] !== "R")) {
+      canOccupy++;
+    }
+    
+    // Bottom row (facing up): left is at index i-1
+    if (table[1][i] === "U" && (i === 0 || table[1][i-1] !== "R")) {
+      canOccupy++;
+    }
   }
 
 
