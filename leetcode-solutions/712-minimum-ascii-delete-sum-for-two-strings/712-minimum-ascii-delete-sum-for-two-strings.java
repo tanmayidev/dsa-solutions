@@ -2,32 +2,31 @@
 
 class Solution {
     public int minimumDeleteSum(String s1, String s2) {
-        int maxCommonAscii = findMaxCommonAscii(s1, s2, 0, 0);
+        int m = s1.length();
+        int n = s2.length();
+
+        // dp[i][j] = max ASCII sum of common subsequence
+        int[][] dp = new int[m + 1][n + 1];
+
+        for (int i = 1; i <= m; i++) {
+            for (int j = 1; j <= n; j++) {
+                char c1 = s1.charAt(i - 1);
+                char c2 = s2.charAt(j - 1);
+
+                if (c1 == c2) {
+                    dp[i][j] = dp[i - 1][j - 1] + c1;
+                } else {
+                    dp[i][j] = Math.max(dp[i - 1][j], dp[i][j - 1]);
+                }
+            }
+        }
+
         int total = asciiSum(s1) + asciiSum(s2);
-        return total - 2 * maxCommonAscii;
+        int common = dp[m][n];
+
+        return total - 2 * common;
     }
-    
-    // Returns maximum ASCII sum of common subsequence
-    private int findMaxCommonAscii(String s1, String s2, int i, int j) {
-        // Base case: reached end of either string
-        if (i == s1.length() || j == s2.length()) {
-            return 0;
-        }
-        
-        char c1 = s1.charAt(i);
-        char c2 = s2.charAt(j);
-        
-        if (c1 == c2) {
-            // Characters match: include this character's ASCII value
-            return c1 + findMaxCommonAscii(s1, s2, i + 1, j + 1);
-        } else {
-            // Characters don't match: try both possibilities
-            int skipS1 = findMaxCommonAscii(s1, s2, i + 1, j);
-            int skipS2 = findMaxCommonAscii(s1, s2, i, j + 1);
-            return Math.max(skipS1, skipS2);
-        }
-    }
-    
+
     private int asciiSum(String s) {
         int sum = 0;
         for (char c : s.toCharArray()) {
