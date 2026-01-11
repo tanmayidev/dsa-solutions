@@ -21,39 +21,18 @@ Test Cases :
 ```
 
 function golfScore(par, strokes) {
+    if (strokes === 1) {
+        return "Hole in one!";
+    }
 
-  // if (strokes == 1) {
-  //   return "Hole in one!";
-  // } else if ((par - strokes) == 2) {
-  //   return "Eagle";
-  // } else if ((par - strokes) == 1) {
-  //   return "Birdie";
-  // } else if ((par - strokes == 0)) {
-  //   return "Par";
-  // } else if ((par - strokes) == -1) {
-  //   return "Bogey";
-  // } else if ((par - strokes) == -2) {
-  //   return "Double bogey"
-  // }
+    const diff = strokes - par;
 
-  if (strokes == 1) {
-     return "Hole in one!";
-  }
-  let diff = par - strokes;
-
-  switch(diff) {
-    case 0:
-      return "Par";
-    case 1:
-      return "Birdie";
-    case 2:
-      return "Eagle";
-    case -1:
-      return "Bogey";
-    case -2:
-      return "Double bogey";
-    default:
-      return "";
-  }
-
+    switch(diff) {
+      case -2: return "Eagle";
+      case -1: return "Birdie";
+      case 0: return "Par";
+      case 1: return "Bogey";
+      case 2: return "Double bogey";
+      default: return "Invalid score";
+    }
 }
